@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+        <div class="wrapper">
+            <div class="modal cart">
+                <div class="overlay"></div>
+                <div class="modal-content">
+
+                </div>
+            </div>
+            <div class="modal cart">
+                <div class="overlay"></div>
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Shopping Cart</h3>
+                        <span class="cart-count-item">3 Items</span>
+                        <p class="free-shipping">Free shipping for all orders over $800.00!</p>
+                    </div>
+                    <div class="modal-body">
+                        <p>Your cart is empty</p>
+                        <a href="#" class="button-link">Checkout</a>
+                    </div>
+                </div>
+            </div>
+            <div class="promo-bar">
+                <div class="marquee">
+                    <div class="ad-item add-1">
+                        <div class="ad-icon">
+                            <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="9" height="14" fill="url(#pattern0_2_156)"/>
+                                <defs>
+                                <pattern id="pattern0_2_156" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_2_156" transform="scale(0.111111 0.0714286)"/>
+                                </pattern>
+                                <image id="image0_2_156" width="9" height="14" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAOCAYAAAD9lDaoAAAAwElEQVQokXXQsUpDQRCF4c+QyiJNQFJoHawkRV5F0lxjqaAWgmARSJ8yIglpQsAyhS9hK/gGFoKVkEZIioAs7IXlendgYXb4d86ec/BaFDLVxzv2jQwwxmkAwqVZA1zgHkfloLqpjRWesMtBb9hglA5TuRm6+MAtDuP5KaFLXMX+DNPk8XWQG2KZcXmHedjUwgS/2GKAHl6iAXVhfsd8jus+HuoBHZykwzSC0D/iBl856BwLPFf1S7kAf2L9zx/+AD/dHrYEjMPuAAAAAElFTkSuQmCC"/>
+                                </defs>
+                            </svg>
+                        </div>
+                        <p>SPECIAL OFFER: ENJOY 3 MONTHS OF SHOPIFY FOR <strong>$1/MONTH</strong></p>
+                    </div>
+                    <div class="ad-item add-1">
+                        <div class="ad-icon">
+                            <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="9" height="14" fill="url(#pattern0_2_156)"/>
+                                <defs>
+                                <pattern id="pattern0_2_156" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_2_156" transform="scale(0.111111 0.0714286)"/>
+                                </pattern>
+                                <image id="image0_2_156" width="9" height="14" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAOCAYAAAD9lDaoAAAAwElEQVQokXXQsUpDQRCF4c+QyiJNQFJoHawkRV5F0lxjqaAWgmARSJ8yIglpQsAyhS9hK/gGFoKVkEZIioAs7IXlendgYXb4d86ec/BaFDLVxzv2jQwwxmkAwqVZA1zgHkfloLqpjRWesMtBb9hglA5TuRm6+MAtDuP5KaFLXMX+DNPk8XWQG2KZcXmHedjUwgS/2GKAHl6iAXVhfsd8jus+HuoBHZykwzSC0D/iBl856BwLPFf1S7kAf2L9zx/+AD/dHrYEjMPuAAAAAElFTkSuQmCC"/>
+                                </defs>
+                            </svg>
+                        </div>
+                        <p>SPECIAL OFFER: ENJOY 3 MONTHS OF SHOPIFY FOR <strong>$1/MONTH</strong></p>
+                    </div>
+                    <div class="ad-item add-1">
+                        <div class="ad-icon">
+                            <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="9" height="14" fill="url(#pattern0_2_156)"/>
+                                <defs>
+                                <pattern id="pattern0_2_156" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_2_156" transform="scale(0.111111 0.0714286)"/>
+                                </pattern>
+                                <image id="image0_2_156" width="9" height="14" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAOCAYAAAD9lDaoAAAAwElEQVQokXXQsUpDQRCF4c+QyiJNQFJoHawkRV5F0lxjqaAWgmARSJ8yIglpQsAyhS9hK/gGFoKVkEZIioAs7IXlendgYXb4d86ec/BaFDLVxzv2jQwwxmkAwqVZA1zgHkfloLqpjRWesMtBb9hglA5TuRm6+MAtDuP5KaFLXMX+DNPk8XWQG2KZcXmHedjUwgS/2GKAHl6iAXVhfsd8jus+HuoBHZykwzSC0D/iBl856BwLPFf1S7kAf2L9zx/+AD/dHrYEjMPuAAAAAElFTkSuQmCC"/>
+                                </defs>
+                            </svg>
+                        </div>
+                        <p>SPECIAL OFFER: ENJOY 3 MONTHS OF SHOPIFY FOR <strong>$1/MONTH</strong></p>
+                    </div>
+                    <div class="ad-item add-1">
+                        <div class="ad-icon">
+                            <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="9" height="14" fill="url(#pattern0_2_156)"/>
+                                <defs>
+                                <pattern id="pattern0_2_156" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_2_156" transform="scale(0.111111 0.0714286)"/>
+                                </pattern>
+                                <image id="image0_2_156" width="9" height="14" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAOCAYAAAD9lDaoAAAAwElEQVQokXXQsUpDQRCF4c+QyiJNQFJoHawkRV5F0lxjqaAWgmARSJ8yIglpQsAyhS9hK/gGFoKVkEZIioAs7IXlendgYXb4d86ec/BaFDLVxzv2jQwwxmkAwqVZA1zgHkfloLqpjRWesMtBb9hglA5TuRm6+MAtDuP5KaFLXMX+DNPk8XWQG2KZcXmHedjUwgS/2GKAHl6iAXVhfsd8jus+HuoBHZykwzSC0D/iBl856BwLPFf1S7kAf2L9zx/+AD/dHrYEjMPuAAAAAElFTkSuQmCC"/>
+                                </defs>
+                            </svg>
+                        </div>
+                        <p>SPECIAL OFFER: ENJOY 3 MONTHS OF SHOPIFY FOR <strong>$1/MONTH</strong></p>
+                    </div>
+                    <div class="ad-item add-1">
+                        <div class="ad-icon">
+                            <svg width="9" height="14" viewBox="0 0 9 14" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <rect width="9" height="14" fill="url(#pattern0_2_156)"/>
+                                <defs>
+                                <pattern id="pattern0_2_156" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_2_156" transform="scale(0.111111 0.0714286)"/>
+                                </pattern>
+                                <image id="image0_2_156" width="9" height="14" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAOCAYAAAD9lDaoAAAAwElEQVQokXXQsUpDQRCF4c+QyiJNQFJoHawkRV5F0lxjqaAWgmARSJ8yIglpQsAyhS9hK/gGFoKVkEZIioAs7IXlendgYXb4d86ec/BaFDLVxzv2jQwwxmkAwqVZA1zgHkfloLqpjRWesMtBb9hglA5TuRm6+MAtDuP5KaFLXMX+DNPk8XWQG2KZcXmHedjUwgS/2GKAHl6iAXVhfsd8jus+HuoBHZykwzSC0D/iBl856BwLPFf1S7kAf2L9zx/+AD/dHrYEjMPuAAAAAElFTkSuQmCC"/>
+                                </defs>
+                            </svg>
+                        </div>
+                        <p>SPECIAL OFFER: ENJOY 3 MONTHS OF SHOPIFY FOR <strong>$1/MONTH</strong></p>
+                    </div>
+                </div>
+            </div>
+            <header class="header">
+                <div class="header-main ">
+                    <div class="header-inner container">
+                        <div class="logo">
+                            <a href="/">
+                                <img src="./images/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="header-right">
+                            <p class="free-shipping">Free shipping on All Orders. No Minimum Purchase</p>
+                            <div class="header-util-container">
+                                <div class="header-util-item cart">
+                                    <a href="#" class="header-util-link">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="15" height="20" viewBox="0 0 15 20">
+                                            <image width="15" height="20" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAUCAYAAABSx2cSAAAA/UlEQVQ4je3UPUoEQRQE4G9HFzPBicREYQIx8gAGYqhmJmIgHkAwMnRjUz2AP+AdxAkMBM00MPAGRiLoAfyj5Q2MswPuRiYWdA9VVM3r13R3pygKLVjHASbxil0cNW0jeZ43tW0co4MSU9jAJ67qxrbKyXSO1Zp2iq344Y/KXSxhFptYxBneMReVP7CCMST/DJ5S5WsstDX+C+6zCN5gGfvh3wtejV7oveCprfksxAdc1DakDF6NMvSK3yVShcfj+4bH6LG5iUnvBp9I02jDdInplvBtm57pRzNYoU9vCw+M//BfhF+GzD2nqTpha3EFB0W6nt+PwSF2hl4zJ18WVjB1iAHvkwAAAABJRU5ErkJggg=="/>
+                                        </svg>
+                                        <span class="header-util-title">
+                                            Shopping Cart
+                                        </span>
+                                        <p class="cart-count">0</p>
+                                    </a>
+                                </div>
+                                <div class="header-util-item wishlists">
+                                    <a href="#" class="header-util-link">
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="16" viewBox="0 0 18 16">
+                                            <image width="18" height="16" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAQCAYAAAAbBi9cAAABBElEQVQ4jaXTvy4EURTH8Q9RkGiWhsYDUFDxAFTbKTzAUtDzCDyIP53EegBeQ7ESiWyFRiMKZOTI2WQzdmbX+iU3ufnd7/nNmTl39OkQL3hAF49o9p030+smE+yRktoo0MIsGjhObydXkV4jmVZ6172o6OQNM+V0rCRc5L6s6az96ewOBwOgnqKLk5rz/cxwj6UacJiitjOZbf9XRQR9YuMfQev4msAlprA9ZtBVBMVmFa8VUxmm5axd63Hn+dH/qg4uyjXP/ZdrBLWz5pfmcoJnI4ScJjtfBSwmcFsTcpNMsLWKa/+E9xK8kF68zqDfqVIxgHjyHnZzH95Y2sRHrq3KBHwDudY8uceROoQAAAAASUVORK5CYII="/>
+                                        </svg>
+                                        <span class="header-util-title">
+                                            My Wish Lists
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="header-util-item login">
+                                    <a href="#" class="header-util-link">  
+                                        <span class="header-util-title">
+                                            Sign In or Create an account
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-bottom ">
+                    <div class="header-inner container">
+                        <nav class="menu ">
+                            <ul class="menu-list">
+                                <li class="menu-item">
+                                    <a href="#" class="menu-link">New in</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#" class="menu-link">Trend</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#" class="menu-link">Collections</a>
+                                    <div class="menu-tag danger">
+                                        <span>Sale</span>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#" class="menu-link">Lookbook</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#" class="menu-link">Demo</a>
+                                    <div class="menu-tag success">
+                                        <span>New</span>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#" class="menu-link">Shop Instagram</a>
+                                    <div class="menu-tag warning">
+                                        <span>Hot</span>
+                                    </div>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#" class="menu-link">Blog</a>
+                                    <ul class="sub-menu-list">
+                                        <li class="sub-menu-item">
+                                            <a href="#">Blog Default Layout</a>
+                                        </li>
+                                        <li class="sub-menu-item">
+                                            <a href="#">Blog with Small Image and Left Sidebar</a>
+                                        </li>
+                                        <li class="sub-menu-item">
+                                            <a href="#">Blog Mansory</a>
+                                        </li>
+                                        <li class="sub-menu-item">
+                                            <a href="#">Blog Full-width</a>
+                                        </li>
+                                        <li class="sub-menu-item">
+                                            <a href="#">Blog Post with LookBook</a>
+                                        </li>
+                                        <li class="sub-menu-item">
+                                            <a href="#">Blog Post with Product Widget</a>
+                                        </li>
+                                    </ul>
+                                
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#" class="menu-link">Brands</a>
+                                </li>
+                                <li class="menu-item">
+                                    <a href="#" class="menu-link">FAQS</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <section class="banner">
+                <div class="banner-slider owl-carousel">
+                    <div class="banner-item">
+                        <div class="banner-image">
+                            <img src="./images/banner1.jpg" alt="Banner image">
+                        </div>
+                        <div class="container">
+                            <div class="banner-content text-left">
+                                <h3 class="title">
+                                    Cosmopolis
+                                </h3>
+                                <span>Quisquemos sodales suscipit tortor ditaemcos condimentum de cos</span>
+                                <a href="#" class="button-link">Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-item">
+                        <div class="banner-image">
+                            <img src="./images/banner2.jpg" alt="Banner image">
+                        </div>
+                        <div class="container">
+                            <div class="banner-content text-right">
+                                <h3 class="title">
+                                    Cosmopolis
+                                </h3>
+                                <p>Quisquemos sodales suscipit tortor ditaemcos condimentum de cos</p>
+                                <a href="#" class="button-link">Shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="banner-item image-center">
+                        <div class="banner-image">
+                            <img src="./images/banner3.jpg" alt="Banner image">
+                        </div>
+                        <div class="container">
+                            <div class="banner-content">
+                                <img src="./images/banner-content.png" alt="Banner content"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <main id="main">
+                <aside class="sidebar">
+                    <div class="sidebar-item clock">
+                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21" fill="none">
+                            <rect width="21" height="21" fill="url(#pattern0_2_171)"/>
+                            <defs>
+                            <pattern id="pattern0_2_171" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_2_171" transform="scale(0.047619)"/>
+                            </pattern>
+                            <image id="image0_2_171" width="21" height="21" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAYAAACpF6WWAAABxUlEQVQ4jaXVv2sUcRAF8I/nEUQEfzQiGLhSkIBYqKX1WYpWQjDYaGFjYesfIIIWKQMKVhIUgtqpYKMgNpJSFKIIFmrECMYYZMLs8c16t7fBB8fufXfn3cy8eXPber2exAQu4qbN6GISu7GMJaxpQKd4tBPn8z7OT+MRPuI+buQ1vj/GmVr8AN0hZ4dwB99xHU/xq3geFZ3EJVzFNBZLgrL8PXiLFVzGg9qPncCL2lkfs5jBk1GkX/EZn/JsDrfy/j16/sUUFnCqyrgsP0TYWwtZGdazGt5kK27jGNarRp/FFXyrfX63IJWCfkhxB+qF6q9aEoxC1dsN0u04iuf/SfosebqdHOx3+NMQEGO0I6+jsJoCT3ZS9Z9jsjiH/alwE76E8zqp+r6GF4/jGi7g4RjS4FnuppcPZGmrQwjvpSVfjiGcSJ6lTi6H12m9ErtwtyWhjA+etWqk5nKAS/zAkZaEMj54BnM6j4Pp5TpxG/Qzfr4kXc9tM5te3gqmMm46eTbtw8V0xMKQjEehn+/PlOuv3FIVDudyCC9HBuGUcirKfRolN+7TEtXmjwzCeuGUGOyYwxibUDlEiR5ulNyGtMTW/qPwF20mZM9fDUhsAAAAAElFTkSuQmCC"/>
+                            </defs>
+                            </svg>
+                    </div>
+                    <div class="sidebar-item share">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="17" viewBox="0 0 18 17" fill="none">
+                                <rect width="18" height="17" fill="url(#pattern0_2_167)"/>
+                                <defs>
+                                <pattern id="pattern0_2_167" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_2_167" transform="scale(0.0555556 0.0588235)"/>
+                                </pattern>
+                                <image id="image0_2_167" width="18" height="17" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAARCAYAAADQWvz5AAABY0lEQVQ4jZXUsUtbYRQF8J9WKFRKB11qEkgHQSWUVikN6KabYEVwqY4dXaRIB3EUKbj4Lwh1aQeX0iFDcBACxQ4iVchSkI6dxK3ScuEGHDK89y0f78J37jnnnvsG6vW6kmcU23iJ3/iI86GSIMM4xWMco4lO3GWB3qKG8WTzAN/xYbAkUBW/EiTOXTKqFQV6hgO8xwTms17BMs56QM/xCW3sYyTrr/EZXbzBTn638DPrN9gdSpCgd5V3+LCIP5iNbljHF/zFQDadTolHuI3xR3ESr1JzJTtdYAsnRbQPpoGdBJFdwtBvRUF6QD/SsErW5tPQjdCOsaJAu2lYNw1spaExpXfJ7hAv8s1IDqSdXoXHeisynCZXM2Bf8Q8PsYZNNPLxUzy5l+xg3yy6azGpBexhqk+yL4uuSLALyXN41CfZjbIrEoPpm+yyv5GQGINYyQDH4+sIbtntD4mrWMJMghzh9j9xRVOovoYZZQAAAABJRU5ErkJggg=="/>
+                                </defs>
+                                </svg>
+                    </div>
+                    <div class="sidebar-item arrow">
+                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="10" height="20" viewBox="0 0 10 20" fill="none">
+                                <rect width="10" height="20" fill="url(#pattern0_2_169)"/>
+                                <defs>
+                                <pattern id="pattern0_2_169" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_2_169" transform="scale(0.1 0.05)"/>
+                                </pattern>
+                                <image id="image0_2_169" width="10" height="20" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAUCAYAAAC07qxWAAAAkklEQVQoke3SvQkCQRDF8Z8fBVwJ14WJkYJcZCuWYWZmGRZgYAEGgrmHkfmZGCsLI6zLWYDgg4Hd9/6zy8AM6rpWaBLXY24PC2iGQ9QsD0ZVVb3PDbbY4YwVLmjzF5fYBNxGNeGlzBhzrLHALfvtGt4ejwSeMEVXThWNKXsm8N4D5Or6pv6qP/jzYFqKUmmbPoUXeqUXyIO/Pb0AAAAASUVORK5CYII="/>
+                                </defs>
+                                </svg>
+                    </div>
+                </aside>
+                <section class="categories">
+                    <div class="container">
+                        <div class="section-content">
+                            <div class="content-inner">
+                                <ul class="category-list">
+                                    <li class="category-item">
+                                        <a href="#">
+                                            <div class="overlay "></div>
+                                            <img src="./images//category-1.png" alt="Category image for Editor’s Pick">
+                                            <span class="category-name">Editor’s Pick</span>
+                                        </a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="#">
+                                            <img src="./images//category-2.png" alt="Category image for Shoes">
+                                            <span class="category-name">Shoes</span>
+                                        </a>
+                                    </li>
+                                    <li class="category-item">
+                                        <a href="#">
+                                            <img src="./images//category-3.png" alt="Category image for Accessories">
+                                            <span class="category-name">Accessories</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="new-arrivals">
+                    <div class="container">
+                        <div class="section-title">
+                            <h3 class="section-title-normal">
+                                <span>New Arrivals</span>
+                            </h3>
+                            <h4 class="section-sub-title">
+                                <a href="#">View all</a>
+                            </h4>
+                        </div>
+                        <div class="section-content">
+                            <div class="content-inner">
+                                <div class="product-list">
+                                    <div class="product-item">
+                                        <div class="product-image">
+                                            <a href="#">
+                                                <img src="./images/arrival-1.png" alt="new arrival">
+                                            </a>
+                                            <div class="add-to-wishlist">
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="37" viewBox="0 0 36 37" fill="none">
+                                                    <rect y="0.408081" width="36" height="36" fill="url(#pattern0_2_79)"/>
+                                                    <defs>
+                                                    <pattern id="pattern0_2_79" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                                    <use xlink:href="#image0_2_79" transform="scale(0.0277778)"/>
+                                                    </pattern>
+                                                    <image id="image0_2_79" width="36" height="36" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAACo0lEQVRYhc1YPYtaQRQ9ui4s21gsz04EVyFikXKtlYU0i/Z+dFvb609QsdRCLS0sJGxAxN1aoo0GFNJarBZRG0HBFDfcyXtijPrmGXfzDgwMc8+9c5i582khIhhEAMAdgI8APgBwAbhRQ8wAjAB8B/ANQAfAVyPhZQUpACIAHgB8AnApGf8ngCaALwA+A/ih68GCdEqMiFr072ipsY72d8x4S0R5IlqfQYyGtRrz1qigOyKqn1HILupqH1KCmNh8QzEamvtE7ZumtxyZXdR3p29XUP4dxWjIHxIUO3MCy2K9vfqsW/tMwsD+ck5cqn2zho0g3vTu/4MYDfeqho2gBxmvXC4HRVHgdrvhdDrhcrnQaDQ2dq5zG9uYw9xsNisr6rcGIgrI5E4kEuEzhiqVCi0WC5rP55ROp0VbrVYThevcxjbmMJfbwuGwTDqxhgALSuoxs9ksXV9f03K5/Ms2GAxEp1y4vovVaiV8M5mMjKgkC6rosXw+HxUKhYN2HpVUKnXQXiwWRQwJVFhQW4/n8XhoNBrJBNwL9vV6vTLUtlW9zxyFxWIxtmb2QDKGy7p1uToIm82GTqdzsphut4uLiwsZ6o1VggS/349qtXqyIPblGFIgole9ie33+2S32/euIj0Mh0Ph2+v1ZOivUknNiMViIrmNgpM5Go3KerWllr0GRVFkNzkB3kzZxwAqUhujhtlsJjbAeDyuy00kEoI7nU6NCEpKHx0axuOx6CgYDB7khEIhwWGuAWyODi5PRjz5OHA4HHR1dfVHp5PJRLTxNO07ZnTwtH1BezTqTWqi80iUSiUql8uizm0n4nFbkHLq2+vl5YVsNpsoz8/Pp4ppqRrMd4U19SXflM8g0z0UTfmUNuVnw+7qe7fvGNN9WJnrSw/AL9vtm8C69P8WAAAAAElFTkSuQmCC"/>
+                                                    </defs>
+                                                    </svg>
+                                            </div>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="product-category">
+                                                <span>Sodling</span>
+                                            </div>
+                                            <h4 class="product-title">
+                                                Naminos Dementus A Milance - Pattern
+                                            </h4>
+                                            <div class="product-price">
+                                                <span>$86.00 - $99.00</span>
+                                            </div>
+                                            <div class="product-variants">
+                                                <div class="colors">
+                                                    <div class="color-option">
+                                                        <button class="blue"></button>
+                                                    </div>
+                                                    <div class="color-option">
+                                                        <button class="light-black"></button>
+                                                    </div>
+                                                    <div class="color-option">
+                                                        <button class="gray"></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item">
+                                        <div class="product-image">
+                                            <a href="#">
+                                                <img src="./images/arrival-2.png" alt="new arrival">
+                                                
+                                            </a>
+                                            <div class="add-to-wishlist">
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="37" viewBox="0 0 36 37" fill="none">
+                                                    <rect y="0.408081" width="36" height="36" fill="url(#pattern0_2_79)"/>
+                                                    <defs>
+                                                    <pattern id="pattern0_2_79" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                                    <use xlink:href="#image0_2_79" transform="scale(0.0277778)"/>
+                                                    </pattern>
+                                                    <image id="image0_2_79" width="36" height="36" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAACo0lEQVRYhc1YPYtaQRQ9ui4s21gsz04EVyFikXKtlYU0i/Z+dFvb609QsdRCLS0sJGxAxN1aoo0GFNJarBZRG0HBFDfcyXtijPrmGXfzDgwMc8+9c5i582khIhhEAMAdgI8APgBwAbhRQ8wAjAB8B/ANQAfAVyPhZQUpACIAHgB8AnApGf8ngCaALwA+A/ih68GCdEqMiFr072ipsY72d8x4S0R5IlqfQYyGtRrz1qigOyKqn1HILupqH1KCmNh8QzEamvtE7ZumtxyZXdR3p29XUP4dxWjIHxIUO3MCy2K9vfqsW/tMwsD+ck5cqn2zho0g3vTu/4MYDfeqho2gBxmvXC4HRVHgdrvhdDrhcrnQaDQ2dq5zG9uYw9xsNisr6rcGIgrI5E4kEuEzhiqVCi0WC5rP55ROp0VbrVYThevcxjbmMJfbwuGwTDqxhgALSuoxs9ksXV9f03K5/Ms2GAxEp1y4vovVaiV8M5mMjKgkC6rosXw+HxUKhYN2HpVUKnXQXiwWRQwJVFhQW4/n8XhoNBrJBNwL9vV6vTLUtlW9zxyFxWIxtmb2QDKGy7p1uToIm82GTqdzsphut4uLiwsZ6o1VggS/349qtXqyIPblGFIgole9ie33+2S32/euIj0Mh0Ph2+v1ZOivUknNiMViIrmNgpM5Go3KerWllr0GRVFkNzkB3kzZxwAqUhujhtlsJjbAeDyuy00kEoI7nU6NCEpKHx0axuOx6CgYDB7khEIhwWGuAWyODi5PRjz5OHA4HHR1dfVHp5PJRLTxNO07ZnTwtH1BezTqTWqi80iUSiUql8uizm0n4nFbkHLq2+vl5YVsNpsoz8/Pp4ppqRrMd4U19SXflM8g0z0UTfmUNuVnw+7qe7fvGNN9WJnrSw/AL9vtm8C69P8WAAAAAElFTkSuQmCC"/>
+                                                    </defs>
+                                                    </svg>
+                                            </div>
+                                            
+                                            <div class="add-to-cart">
+                                                <button>Add to cart</button>
+                                            </div>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="product-category">
+                                                <span>Tomorrow</span>
+                                            </div>
+                                            <h4 class="product-title">
+                                                Dinterdum Pretium Condimento - Pattern
+                                            </h4>
+                                            <div class="product-price">
+                                                <span>$139.00 - $189.00</span>
+                                            </div>
+                                            <div class="product-variants">
+                                                <div class="colors">
+                                                    <div class="color-option">
+                                                        <button class="black"></button>
+                                                    </div>
+                                                    <div class="color-option ">
+                                                        <button class="gray"></button>
+                                                    </div>
+                                                    <div class="color-option ">
+                                                        <button class="blue"></button>
+                                                    </div>
+                                                    <div class="color-option ">
+                                                        <button class="green"></button>
+                                                    </div>
+                                                    <div class="color-option ">
+                                                        <button class="yellow"></button>
+                                                    </div>
+                                                    <span>+1</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item">
+                                        <div class="product-image">
+                                            <a href="#">
+                                                <img src="./images/arrival-3.png" alt="new arrival">
+                                            </a>
+                                            <div class="add-to-wishlist">
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="37" viewBox="0 0 36 37" fill="none">
+                                                    <rect y="0.408081" width="36" height="36" fill="url(#pattern0_2_79)"/>
+                                                    <defs>
+                                                    <pattern id="pattern0_2_79" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                                    <use xlink:href="#image0_2_79" transform="scale(0.0277778)"/>
+                                                    </pattern>
+                                                    <image id="image0_2_79" width="36" height="36" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAACo0lEQVRYhc1YPYtaQRQ9ui4s21gsz04EVyFikXKtlYU0i/Z+dFvb609QsdRCLS0sJGxAxN1aoo0GFNJarBZRG0HBFDfcyXtijPrmGXfzDgwMc8+9c5i582khIhhEAMAdgI8APgBwAbhRQ8wAjAB8B/ANQAfAVyPhZQUpACIAHgB8AnApGf8ngCaALwA+A/ih68GCdEqMiFr072ipsY72d8x4S0R5IlqfQYyGtRrz1qigOyKqn1HILupqH1KCmNh8QzEamvtE7ZumtxyZXdR3p29XUP4dxWjIHxIUO3MCy2K9vfqsW/tMwsD+ck5cqn2zho0g3vTu/4MYDfeqho2gBxmvXC4HRVHgdrvhdDrhcrnQaDQ2dq5zG9uYw9xsNisr6rcGIgrI5E4kEuEzhiqVCi0WC5rP55ROp0VbrVYThevcxjbmMJfbwuGwTDqxhgALSuoxs9ksXV9f03K5/Ms2GAxEp1y4vovVaiV8M5mMjKgkC6rosXw+HxUKhYN2HpVUKnXQXiwWRQwJVFhQW4/n8XhoNBrJBNwL9vV6vTLUtlW9zxyFxWIxtmb2QDKGy7p1uToIm82GTqdzsphut4uLiwsZ6o1VggS/349qtXqyIPblGFIgole9ie33+2S32/euIj0Mh0Ph2+v1ZOivUknNiMViIrmNgpM5Go3KerWllr0GRVFkNzkB3kzZxwAqUhujhtlsJjbAeDyuy00kEoI7nU6NCEpKHx0axuOx6CgYDB7khEIhwWGuAWyODi5PRjz5OHA4HHR1dfVHp5PJRLTxNO07ZnTwtH1BezTqTWqi80iUSiUql8uizm0n4nFbkHLq2+vl5YVsNpsoz8/Pp4ppqRrMd4U19SXflM8g0z0UTfmUNuVnw+7qe7fvGNN9WJnrSw/AL9vtm8C69P8WAAAAAElFTkSuQmCC"/>
+                                                    </defs>
+                                                    </svg>
+                                            </div>
+                                            <div class="show">
+                                                <button>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18" height="12" viewBox="0 0 18 12" fill="none">
+                                                        <rect y="0.408081" width="18" height="11" fill="url(#pattern0_2_97)"/>
+                                                        <defs>
+                                                        <pattern id="pattern0_2_97" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                                        <use xlink:href="#image0_2_97" transform="scale(0.0555556 0.0909091)"/>
+                                                        </pattern>
+                                                        <image id="image0_2_97" width="18" height="11" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAALCAYAAAByF90EAAABDUlEQVQokXXSvyuFcRTH8ddmsRikWGQgm2SUBSUmg3RLSl0GFkpJNzOLAX+CzaoUKxYMBrqRlAnJZJH86tG59fV0n0996/T+fJ7znNP3q0C9OMI7vuN84BgDRR+lasQpflDFOLrijOA8vGu0FDUZjtAbuoON4go3KAVrxUNkS/km5TC2ErYbbANrUR8mfiVYpQamA8wnoaFgPQlrCzaVsIlgy6LYy02Y/eW5zvp32Mmx7ehhJYrJxBwL1pmwpmDlhA0GW6+B1fy+2A+2iNmozxJ/LthmfuzsBjLjHs3BZvCIFywFa8BFZBfqrP+n7GpvI3SCfrSjA304CO8pt3ahsjd1iS+8xkSfySP9L/wCYU5KBRN84+kAAAAASUVORK5CYII="/>
+                                                        </defs>
+                                                        </svg>
+                                                </button>
+                                            </div>
+                                            <div class="choose-size">
+                                                <div class="close-button">
+                                                    <button>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13" height="14" viewBox="0 0 13 14" fill="none">
+                                                            <rect y="0.408081" width="13" height="13" fill="url(#pattern0_2_91)"/>
+                                                        <defs>
+                                                        <pattern id="pattern0_2_91" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                                        <use xlink:href="#image0_2_91" transform="scale(0.0769231)"/>
+                                                        </pattern>
+                                                        <image id="image0_2_91" width="13" height="13" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAANCAYAAABy6+R8AAAAaUlEQVQokYXS0Q3AIAgE0INV2H/GNsW2ATzQDyXKC2oQMwOAC4DgPDxP3wBh7cafp6VCB+O+V/JggAk8k9aNkriBiqaK6ZMq2hLYrzI0vYmi7koJRsQAhR9qH81g7AgGKIwdceq9dQ7IDWN2F4PKETHWAAAAAElFTkSuQmCC"/>
+                                                        </defs>
+                                                        </svg>
+                                                    </button>
+                                                </div>
+                                                <div class="size-choosen">
+                                                    <h4>Size:</h4>
+                                                    <span>XS</span>
+                                                </div>
+                                                <form name="size-form">
+                                                    <div class="form-wrapper">
+                                                        <div class="form-group">
+                                                            <input type="radio" checked id="option1" name="options" class="radio-input">
+                                                            <label for="option1" class="size-label">XS</label>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="radio" id="option2" name="options" class="radio-input">
+                                                            <label for="option2" class="size-label">S</label>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="radio" id="option3" name="options" class="radio-input">
+                                                            <label for="option3" class="size-label">M</label>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="radio" id="option4" name="options" class="radio-input">
+                                                            <label for="option4" class="size-label">L</label>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="radio" id="option5" name="options" class="radio-input">
+                                                            <label for="option5" class="size-label">XL</label>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="radio" id="option6" name="options" class="radio-input">
+                                                            <label for="option6" class="size-label">2X</label>
+                                                        </div>
+                                                    </div>
+                                                    <button type="submit">SUBMIT</button>
+                                                </form>
+                                            </div>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="product-category">
+                                                <span>Paul Smith</span>
+                                            </div>
+                                            <h4 class="product-title">
+                                                Magnis Darturien Metro Lacinis - Black
+                                            </h4>
+                                            <div class="product-price">
+                                                <span>$86.00</span>
+                                            </div>
+                                            <div class="product-variants">
+                                                <div class="colors">
+                                                    <div class="color-option">
+                                                        <button class="white"></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-item">
+                                        <div class="product-image">
+                                            <a href="">
+                                                <img src="./images/arrival-4.png" alt="new arrival">
+                                            </a>
+                                            <div class="add-to-wishlist">
+                                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="37" viewBox="0 0 36 37" fill="none">
+                                                    <rect y="0.408081" width="36" height="36" fill="url(#pattern0_2_79)"/>
+                                                    <defs>
+                                                    <pattern id="pattern0_2_79" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                                    <use xlink:href="#image0_2_79" transform="scale(0.0277778)"/>
+                                                    </pattern>
+                                                    <image id="image0_2_79" width="36" height="36" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAACo0lEQVRYhc1YPYtaQRQ9ui4s21gsz04EVyFikXKtlYU0i/Z+dFvb609QsdRCLS0sJGxAxN1aoo0GFNJarBZRG0HBFDfcyXtijPrmGXfzDgwMc8+9c5i582khIhhEAMAdgI8APgBwAbhRQ8wAjAB8B/ANQAfAVyPhZQUpACIAHgB8AnApGf8ngCaALwA+A/ih68GCdEqMiFr072ipsY72d8x4S0R5IlqfQYyGtRrz1qigOyKqn1HILupqH1KCmNh8QzEamvtE7ZumtxyZXdR3p29XUP4dxWjIHxIUO3MCy2K9vfqsW/tMwsD+ck5cqn2zho0g3vTu/4MYDfeqho2gBxmvXC4HRVHgdrvhdDrhcrnQaDQ2dq5zG9uYw9xsNisr6rcGIgrI5E4kEuEzhiqVCi0WC5rP55ROp0VbrVYThevcxjbmMJfbwuGwTDqxhgALSuoxs9ksXV9f03K5/Ms2GAxEp1y4vovVaiV8M5mMjKgkC6rosXw+HxUKhYN2HpVUKnXQXiwWRQwJVFhQW4/n8XhoNBrJBNwL9vV6vTLUtlW9zxyFxWIxtmb2QDKGy7p1uToIm82GTqdzsphut4uLiwsZ6o1VggS/349qtXqyIPblGFIgole9ie33+2S32/euIj0Mh0Ph2+v1ZOivUknNiMViIrmNgpM5Go3KerWllr0GRVFkNzkB3kzZxwAqUhujhtlsJjbAeDyuy00kEoI7nU6NCEpKHx0axuOx6CgYDB7khEIhwWGuAWyODi5PRjz5OHA4HHR1dfVHp5PJRLTxNO07ZnTwtH1BezTqTWqi80iUSiUql8uizm0n4nFbkHLq2+vl5YVsNpsoz8/Pp4ppqRrMd4U19SXflM8g0z0UTfmUNuVnw+7qe7fvGNN9WJnrSw/AL9vtm8C69P8WAAAAAElFTkSuQmCC"/>
+                                                    </defs>
+                                                    </svg>
+                                            </div>
+                                        </div>
+                                        <div class="product-content">
+                                            <div class="product-category">
+                                                <span>Donatello</span>
+                                            </div>
+                                            <h4 class="product-title">
+                                                Loremous Saliduar A Cosmopolito - Pattern
+                                            </h4>
+                                            <div class="product-price">
+                                                <span>$86.00 - $99.00</span>
+                                            </div>
+                                            <div class="product-variants">
+                                                <div class="colors">
+                                                    <div class="color-option ">
+                                                        <button class="light-black"></button>
+                                                    </div>
+                                                    <div class="color-option gray">
+                                                        <button class="gray"></button>
+                                                    </div>
+                                                    <div class="color-option green">
+                                                        <button class="green"></button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="#" class="button button-link">Show more</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="instagram">
+                    <div class="container">
+                        <div class="section-title">
+                            <h3 class="section-title-normal">
+                                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+                                    <image width="22" height="22" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAB90lEQVQ4jaWUS0hVURSGv+5NLN/dK4KoYGQ4kG40UBoEghOhQGkiNBPSknBikNMgJ00dBD0gyJE9CEfRQJ1Ik7BwIA4uPUQkXzUJKx91kwX/iX3PPfskumBz9lrr3/9Za++11hHypQ4YADqBeuAokCNaEsAfYBWYBh4A2SjkDZH8PcS6HZAFEfcBj7R/DEwAy4oo4Yk4J1+NMrwp+53gB2knwmsekv1It8PTbPi7UsYOQFYEPBWHyYi4npuyIOWC5/Al4KUeaR14DVxx/HZ2Q/tG6Ybjq5SWCNIXMQ85pYjLgTLhq+TbQeymnAmRTsi+BQwC54AMcBX4It/b0JmU7L9QiqacdQAdslk2pyIyOQF8EKbXsVfL9tNHPClbv+feTS4K82m/xFbb32VriiEuce47FSb2FX9SX187o+YJpIAnitj+OKd9Wwxx4FvRWxRI1B1flm0RqPQQvxdmyLHl3fGalEzo4BvZPwM9mgnW/l3ArONzJe2W2zdPgxQDMzENMg/Uhs5UuA2SlXLek/J14J1DaCPglgd7UhgLlntSRj3gQFJKNU6GxfXKMA1ONF3/ORgnlvG2eFqTaobfamObWjZYNoFd4BhQqmYIr+MaPqfV1uOq//vAQzeAYJYeZhlppNgEewJ8BH6obKwmo1bgWwKeAe3/GIE9WbC91nBzcwAAAAAASUVORK5CYII="/>
+                                </svg>
+                                <span>#Ella On Instagram</span>
+                            </h3>
+                            <h4 class="section-sub-title">
+                                Phasellus lorem malesuada ligula pulvinar commodo maecenas
+                            </h4>
+                        </div>
+                        <div class="section-content">
+                            <div class="content-inner">
+                                <div class="slider">
+                                    <div class="slider-item">
+                                        <a href="#">
+                                            <img src="./images/instagram-1.png" alt="image on instagram">
+                                        </a>
+                                    </div>
+                                    <div class="slider-item">
+                                        <a href="#">
+                                            <img src="./images/instagram-2.png" alt="image on instagram">
+                                        </a>
+                                    </div>
+                                    <div class="slider-item">
+                                        <a href="#">
+                                            <img src="./images/instagram-3.png" alt="image on instagram">
+                                        </a>
+                                    </div>
+                                    <div class="slider-item">
+                                        <a href="#">
+                                            <img src="./images/instagram-4.png" alt="image on instagram">
+                                        </a>
+                                    </div>
+                                    <div class="slider-item">
+                                        <a href="#">
+                                            <img src="./images/instagram-5.png" alt="image on instagram">
+                                        </a>
+                                    </div>
+                                    <div class="slider-nav">
+                                        <button class="slider-nav-btn previous-btn">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+                                                <image id="PREV" width="35" height="35" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAACDklEQVRYhc2YwWrCQBRFb5saJYYiQqEuugsIihv9iq78lf5OF/0Iu+m2dC90IQFpNtJFwYpkYUrQhpabPiFNtXWSVOfCkE3m3ZOZycx7cwQ1nQCwAVQBVKSVABgAIgArAKG0AMACwPuuDrvCWABqbIPB4LLZbLbq9bpj2/aFaZpnhmFUoygKlsvl62KxeJ7P5954PHb7/f4dAF/am+KH/5AJoAGg47ruTRAETx8K4vvsx/4Sx8wKcgrAGY1G12EYvqhApMX+jMN4EldJdQDt6XR6nwciLcZjXIm/k/hix/f9xyJB1mJcmbY/gTiE7f8CSQG1f5syLi6n6KnZJpkyZ9uibnCR7QNkLVnUjTQI95FO3r9GVfST9UN/HAtMzXXdq3K5fK762+UR/egrG2osbvEt1Q0trW63m6kffelPDo6MzS3esiwn60f2er1vTxXRl/7kIEyVZ01eEGo4HGaKIf5VwlR46B0KhBL/SgzD0/dQIJT4xzAlpgGHAqHEv0QYg/nIoUDwBUB/gzARE6NdOyYBsvw9myT+EWFWzNBUOhcNJP4rwoRMFVUDFAkk/mEMw5w1S5CigMQ/hgmYPGcNVASQ+MfrVquziXWNP5lMHrKOTnqEVCS+frK+0iqfYYE18zzvNs/oqEr8ZpsKPK1yYOhUHaylTd2UBNKiokxOmRa19lp7vYXQ6n5Gn5srAJ+TPQWpDr20SgAAAABJRU5ErkJggg=="/>
+                                            </svg>
+                                        </button>
+                                        <button class="slider-nav-btn next-btn">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="35" viewBox="0 0 35 35">
+                                                <image id="NEXT" width="35" height="35" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAYAAAAe2bNZAAACC0lEQVRYhc2YzWrCQBSFT5saRUMRoVAX3QUExY0+RVe+Sl+niz6E3XRbuhe6kIDUjXRRsCJZmBK0oeWEG0i1VieT6hwYsknu+eYnM/fOCdR0BsABUAFQklYAYAGIAKwAhNICAAsAn/s67AtTBlBl6/f7141Go1mr1VzHca5s276wLKsSRVGwXC7fF4vF63w+H49GI6/X6z0A8KV9KHZ8QzaAOoC253l3QRC8fCmI7/M7fi9x7Kwg5wDc4XB4G4bhmwrEuvg94zCexFVSDUBrOp0+6kCsi/EYV+LvJb7Y9n3/OU+QRIwr07YTiEPY+i+QNaDWX1PGxeXmPTXbJFPmblvUdS6yQ4AkkkVdXwfhPtLW/WtURT9ZP/THqcBUPc+7KRaLl6q/nY7oR1/ZUGNxi2+qbmiJOp2O1ujQl/7k4Mg43OLL5bKr2slut/vjmUX0pT85CFPhWZMl0GAw2ADLIvGvEKbEQy9roDyAxL8Uw/D0zdytHIDEP4YpMA3QgdEFEv8CYSzmI7owOkDibxEmYmKUB0waIA22S+IfEWbFDO1YIJT4rwgTMlU8Fggl/mEMw5z1WCCU+McwAZPnY4FQ4h+vW6POJtY1/mQyecrSK50RocTXT9dXRuUzLLBm4/H4XqubihK/2W8FnlE5MEyqDhIZUzelgYyoKNNTZkStneigtxBG3c+Yc3MF4BshhgWpoQmrBwAAAABJRU5ErkJggg=="/>
+                                            </svg>
+                                        </button>
+                                    </div>
+                                </div>
+                                <a href="#" class="button button-link">View Gallery</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+            </main>
+            <footer class="footer">
+                <div class="footer-top">
+                    <div class="container">
+                        <div class="footer-inner">
+                            <div class="shop">
+                                <h3 class="footer-title">Shop</h3>
+                                <nav class="footer-nav">
+                                    <ul class="footer-nav-list">
+                                        <li class="footer-nav-item"><a href="#">New in</a></li>
+                                        <li class="footer-nav-item"><a href="#">Women</a></li>
+                                        <li class="footer-nav-item"><a href="#">Men</a></li>
+                                        <li class="footer-nav-item"><a href="#">Shoes</a></li>
+                                        <li class="footer-nav-item"><a href="#">Bags and accessorises</a></li>
+                                        <li class="footer-nav-item"><a href="#">Top Brands</a></li>
+                                        <li class="footer-nav-item"><a href="#">Sale & Special Offers</a></li>
+                                        <li class="footer-nav-item"><a href="#">Lookbook</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="information">
+                                <h3 class="footer-title">Information</h3>
+                                <nav class="footer-nav">
+                                    <ul class="footer-nav-list">
+                                        <li class="footer-nav-item"><a href="#">About</a></li>
+                                        <li class="footer-nav-item"><a href="#">Customer Service</a></li>
+                                        <li class="footer-nav-item"><a href="#">Reward Program</a></li>
+                                        <li class="footer-nav-item"><a href="#">Shipping & Returns</a></li>
+                                        <li class="footer-nav-item"><a href="#">Privacy Policy</a></li>
+                                        <li class="footer-nav-item"><a href="#">Terms & Conditions</a></li>
+                                        <li class="footer-nav-item"><a href="#">Blog</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="customer-service">
+                                <h3 class="footer-title">Customer Service</h3>
+                                <nav class="footer-nav">
+                                    <ul class="footer-nav-list">
+                                        
+                                        <li class="footer-nav-item"><a href="#">New in</a></li>
+                                        <li class="footer-nav-item"><a href="#">Women</a></li>
+                                        <li class="footer-nav-item"><a href="#">Men</a></li>
+                                        <li class="footer-nav-item"><a href="#">Shoes</a></li>
+                                        <li class="footer-nav-item"><a href="#">Bags and accessorises</a></li>
+                                        <li class="footer-nav-item"><a href="#">Top Brands</a></li>
+                                        <li class="footer-nav-item"><a href="#">Sale & Special Offers</a></li>
+                                        <li class="footer-nav-item"><a href="#">Lookbook</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="signup">
+                                <h3 class="footer-title">Newsletter sign up </h3>
+                                <p>Sign up for exclusive updates, new arrivals & insider only disc</p>
+                                <form class="signup-form">
+                                    <input type="text" placeholder="Email Address">
+                                    <button class="submit-btn" type="submit">Submit</button>
+                                </form>
+                                <div class="socials-media">
+                                    <div class="social-media">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+                                                <image id="facebook" width="36" height="36" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAACUUlEQVRYhc2YMYviQBTH/46pBd1YeAgWW7g2bqd2ViscunKF5XLdNn4GCxGs/Q5XiUU4uEJwv8AtVmtlJaS4s1iCYCEL0bxlspMQgruaSW4vPxhCEt6bfzJvZt6bBBEhIDUAVQDXAK4AFABcCBcGAB3AEsATgEcAv4O4P1dQFsA3ALcAvgJQzvS/BzAF8AvATwDPJy24oBPtjohmFJ6Z8PVhfx+9vCSiERGZEYhxMIXPy6CCqkSkRSjEjyb6OEtQNaIhOsXsmKhjw/Qv/4wfzT98fkGjTxTjMHpP0F3EAXwupnf2Mc868z3A+hIliuiba3AF8UXv5j+IcbgRGlxBt2G8jcdjtNttVCoVFItFtFotGTdvGoioFiZ2JpMJZbNZUlXVbaVSSTaWaorYKKVixzRNaJoGZz/MZDLodDr2X5LA1qKIXVuK3W4HwzBc02azieFwKOuOc62IFCIw/X4fuq7bzWE+n6Pb7UJVVQwGAxm3Vzz9+APgS1DLcrmM9Xp99F0ul8NisZAR9FfxJFeBqNfrWK1WWC6X2G63tmk+n0ehULCvklzwgHyRnWGbzYYajYY7u3q9nv3csixZly9MpJ1SMMaQSCRcU37P8T4LiMFEDhwJEvm5H52JhDwuLJmoDuLCExOlyl5GEB8iy7Lc+8PhEOa7uIZHJuqmqYyHZDJpbxfpdBqpVMq+hmBqaxGJ0b3sPI2Qe2+Cxou4hzCfF5IHocEVxCvKH7KxFJK96Putqo1zkh/LMih2hWIsS+lYHjb4C8hPO46J3YFVvI70ALwCbIXJkzvlkRsAAAAASUVORK5CYII="/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="social-media">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+                                                <image id="twitter" width="36" height="36" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAACxElEQVRYhc2YPUsjQRiAn6yLYJSAJocWQQsLr7NS78BAIigeJHhiK0f+gYWCIPobRPwBwmFlIaLFQWyUyH1UwSKQNAEr0ZDGTvMxx+xNQm4TzWxuT/eBJYTdmXl2ZnbmfccnhMAhH4AZYBJ4D4wBQVVFCbgBcsA18Av46aR6XaF3wGcgAXwCTM36K8A34Aw4AYodS0ihDteqECIl/p2UquvF9l66OS6E2BVClF2QqVNWdY47FZoRQhy7KGLnWLWhJTTj0hB1ItVOqt0w/c+esXNsHz670O4rytTZfU5o1eUJrEu5+eszmtaZLw7WFzcxVdvSoSEkF735N5CpM68cGkKJN5SpYznIrUPuTWmd4bq9vSUQCNDf399y7+npifX1dS4vLxkcHGRzc9P6fXx8JBqN6gjJbSYiJ9Ka7uzb2dkR09PTolqtttxbXl4WoVCo5drY2HAywdcMtWtrMTAwQKFQYHZ2lqurq0aRWq1GOp1uqaKvr4+pqSnd6iWTcsi+Ax91nr6/vycWi1m/kkgkQiKRoKenxxouO/F4nIODAydCP0wVz2ghe0fOi2KxaK0ZslfqPePz+bCHMqFQyImMZMxsCq46cnd3Rz6fb/tYu7hqYmLCqVDQ0HiowdLSEltbWwSDeu+wuLjoVMhah0pOCqysrFAqdS4i51o4HHbqUzJUDKyN/NJkY4ZhWPPmOfb3953KSG4MFZBrMzQ0xNHREdvb25hm+7X08PCQ4eHhboRypsoOtLi4uCCVSpHNZslkMpTL5b+KjYyMsLe3x9zcXDcykmtTpSoVna1DfvIPDw/kcjl6e3vx+/3WNTo6ysLCAslk0vrfJRXLRcUhp+6FN11z2hwPnXX7Wi5iOdSFZBJ3/oYy58qhISQzyq9qHF+bimr7T1br5SDfk2mQ5xJFT6bSnjxssCeQr3Yc47kDK28d6QG/AdbLaYChzXpXAAAAAElFTkSuQmCC"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="social-media">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+                                                <image id="instagram" width="36" height="36" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAADLUlEQVRYhc1YPUgjQRT+bokEgo2GlOEERc7qEIRYWRnlEI8jhZWmEFQExTTiTyFiEAsRNVpEBdGIhSB6uRUOgoKCyF0jHIJcoYWCWhxaaCUR3zHjJsSsJm+8XNgPlt2d+d7Mt7Mz772Zd0QERVQD8AD4COADgPcAnEYT1wDOAPwG8AvATwA/VJrnCnIB+AKgEcAnADZm+w8AvgPQAXwF8CerhRCU5Womohj9O2JGWxn7y1RZSkSTRBTPgZgE4kabpaqCPES0kUMh6dgw+mAJ8uToF2VD7CVRL/2m/zky6dhI/33pgibzKCaBydcENed4AnMRT119Woqf8Sv4l1zCZvTtSvVDbdzPWV1dpbKyMuFNM15ut5vm5uZURkpoSHrqb4YXzohAIIDp6Wk4nU7U19fD4XDg8fHxmYmmaYjH49jf38fp6SlaWloQiUQ4Ayq8+WcxOtWcubO5uSm/vL+/n/3JExMT0mZ2dpZDFxqqhaAeDru4uJhcLpep/O7ujnRdp2g0Sjc3N7JsbW2NysvL5XNVVRU9zQwWegRzkcMUjba2tj4rC4VCpnk0NjZGV1dXFAwGJWdkZERF0KJgHnAFdXR0mMTU1tbSzs4O7e3tkc/nk2Xj4+NJ3uDgoIqgA8G84ApKjNDt7a18r6mpMfGamppk3eXlpXzv6+tTEXShpSRXbGxvb0vqzMyMySQUCsn7+vr6W1yVU2OQTBDLWsBut5vqCgoK5D3BUYVmpJ1K8Hq9kt7b22syGxgYkHefz/cWPdeakQOzYLM9RZaioiIMDw9D13Xp+I6OjnB8fIyuri7Mz8+js7MTJSUlkpuwYeJMadm3t7c/KxsaGjIt++7u7hc5TCyyHaPD4ZDxKR3n5+e0sLBA4XCYTk5OTPWVlZXKjpEVOpaWlmTDIhxwsby8LG1GR0c5FjJ0KAVXv9+PlZUVVFRUoK6u7tXgen9/j93dXRweHqKhoQFbW1ucGZQMrkrpx9TUlIxr2dKPwsLCZPhgoi01Y3TlKbF/DTFDQzJjFDvKiLHTzDcejL6fdrVWTvItuQ2y3EbRkltpSx42pG8g83YcY7kDK2sd6QH4C2HmeJStzMQZAAAAAElFTkSuQmCC"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="social-media">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+                                                <image id="pinterest" width="36" height="36" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAADCklEQVRYhc1Yv0tjQRD+EkIC2ggmREVQSEBJkZTJkcIiPMIhBwcBG+X+BQsT/B9ElBQSK4tDEESDRDCQQhDk7iwstFHEEFIkIPEKLSw0Oseu614M/niTeyfvg2X35e3MfG9mdjO7DiICEzEAUQARAKMAhgD0KhW/AVQBnAI4AnAA4BdHvVlCPgBfAXwB8BmAy6T+JoAigG0AWwAa70oIQu+0KSIq0b+jpHS9ae+tlwEiWiSiOwvIPOFO6QxwCUWJKG8hkXbklQ1ThKIWheg9lF4i9VKY/qdn2pFvD187ocUPJPOExdcITVmcwGZx17r6nC37zDfG/mIlXMq24KAJiU3P4Bi5v79HNpvF2NgYfD6fbCMjI5iZmcHJyQmXr6E46JAVOD6u1WoUjUbJ6/XKFg6HKR6P62fRVldXuaErPOVQjJM7zWaTIpGINGoYBl1dXel319fXNDs7q0kdHh5yCAkOMUFomiO1tLQkjQmPCOzt7dHc3NwzYoKomJNKpTiqBaYFoRWORCwWk8bq9TpdXl5qb6TTaT0nl8vJ34LBIJfQilOVEKZxfn4up/b392N+fl6LuVx/F2hPT4/sb25uuMk96lT1TEfweDxabHx8XI8bjccqo7u7m6t2yNlSXJlCOByW03Z2dpBMJuXY7/cjHo9r8d3dXdkHAgEuoV6niUnPsLCwIB83NzdRrVblOBQKweFwyPHx8TH29/flOJVKcdXLZV/jZl65XKZKpULJZFIn9fr6Om1sbNDw8LB8DoVCcotgoiZK2B8APnE/ROzUfX19cLvduL29ffZuYGAA+Xy+k5D9dKmCnE2oWCzKXuRPoVDA2toa6vW6DN/k5CS6urq4KgVOXep0wMbZ2ZkUCQaDGBwcRCaT6URNO46c6qjS5EpeXFzIfmJiwgoiUBwOOvpzFUgkEjJ5Hx4euKKvodBaD21zP8cwDCwvL+vlbgEeOSgP+T6osH8NJcVBe0js9d87ySUL0FS2G60esmWRb8tjkO0OirY8StvysqH9APlh1zG2u7Cy15UegD8t0LcNGNdrNwAAAABJRU5ErkJggg=="/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                    <div class="social-media">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="36" viewBox="0 0 36 36">
+                                                <image id="snapchat" width="36" height="36" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAC5UlEQVRYhc2YP0gbURzHPzmVEtCpOoqiKEFEBYUYNBmECBVaurlIJ8UxXV1cnMU6iM7NGkSSISGiSyFtdSoOOqlR0EFP3EyJ8sq7voicevcuTcN94ab87vc+eb93vz8vIITAo0aBMDAIhIAO4K1yYQJF4Aj4BfwEfnhxrwvUBnwE3gPvgEZN//dAFsgAW8CV6xsSyOWZEULkxb8rr3w5ruf0Y7cQYkUIUa4BTEVl5bPbK1BYCLFZQxC7NtUaWkDhGoXITfmXoF4K0//cGbs27eGzA63UEaaildeAZmp8gHVVfvr1GU/yzCcP+aWWalRrS4ZHIJn04l4WKZVKLC0tMTExwcDAALFYjIWFBUzTrIY1rhgeQ5b2ssemaYqRkRHR2tr67Ont7RVnZ2fVhC5dCdmoKgfaSiQSnJ6evmh+c3PD/Px8NbskGUYNVSi1z87t7S25XM7RZn9/n4uLC69AkiFsqKqtrasr9/qIBzubBg3VQmirp6eHpqYmV/P+/v5qgEKNqp9x1eXlJWtra3R2dtLQ0EC5XH71FcMwWF9ft8I2OztLV1eXLlCH7IdKwBs3y/PzcyYnJ7m+vnb1GggErK+3ubmZbDZLKKQdhN+GhpGl9vZ2Dg8PSSaTrrYSZnV1lZOTEy8wlgzVduq/YOj9h4eHB08gSqYMWQGI6FgXi0Wi0Sh3d3da3re3txkaGvIC9N1QDbmjZLLLZDJWmdCFkZqamiKVSmmdO6UjuUMJ4IuT1fT0NLu7u9ogdkUiEdLptI7pZwkkS8c3p2x9fHzMwcEBi4uLnjJwMBhkeXnZCpvMXy6SE0q0Mgal1YjjqL29PetctLS0sLOzQ6FQeGY+PDxMPB638tTY2Jh15jQlR6UPlWo/V015TiaTIhaLib6+PjE+Pi42NjaqcVPR3NOOsa1Ojf1ryiuGxwZNVsKvKo711r1a+2819nOT78sxyHeDoi9HaV9eNtgHyLpdx/juwspfV3rAH96dDFHTaARgAAAAAElFTkSuQmCC"/>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="footer-inner">
+                            <div class="copyright">
+                                <p>© 2014 Ella Demo. All Rights Reserved. Powered by Shopify.</br> Shopify Themes by HaloThemes.com</p>
+                            </div>
+                            <div class="payment">
+                                <img src="./images/CC.png" alt="payments icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="./script.js"></script>
+  </body>
+</html>

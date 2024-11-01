@@ -1,0 +1,84 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* HTML5 display settings for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section {
+    display: block;
+}
+
+/* Reset default list styles */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Reset default table styles */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Set default styles for images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Set default styles for form elements */
+input,
+button,
+textarea,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+}
+
+/* Remove default text decoration for links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Allow elements to be focused */
+:focus {
+    outline: none;
+}
+
+/* Set default styles for body */
+body {
+    font-family: "Poppins", serif;
+    letter-spacing: 0.24px;
+}
+
+/* Set default styles for buttons */
+button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+/* Set default styles for form elements (more specific) */
+input[type='checkbox'],
+input[type='radio'] {
+    display: inline-block; /* Cung cấp hiển thị inline cho checkbox và radio */
+}
